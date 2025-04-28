@@ -40,5 +40,6 @@ In this activity, you'll add a "build" job to your workflow. This job will serve
 
 ---
 
-### Notes:
+### Notes
+
 - If you're working with Azure, you can use Azure-hosted runners. Learn more about [Azure-hosted runners](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted).

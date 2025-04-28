@@ -44,5 +44,6 @@ To get you started, we ran an Actions workflow in your new repository that, amon
 
 ---
 
-### Notes:
+### Notes
+
 - If you're working with Azure, you can use Azure-hosted runners. Learn more about [Azure-hosted runners](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted).
