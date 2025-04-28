@@ -8,6 +8,14 @@ _Create and run a GitHub Actions workflow._
 
 This file serves as the main documentation for the "Hello GitHub Actions" course. It provides an introduction to GitHub Actions and guides users through creating and running their first GitHub Actions workflow.
 
+## Table of Contents
+1. [Introduction](#hello-github-actions)
+2. [File Structure](#file-structure)
+3. [Key Features](#key-features)
+4. [How to Use](#how-to-use)
+5. [License](#license)
+6. [Step 1: Create a Workflow File](#step-1-create-a-workflow-file)
+
 ## File Structure
 
 The file is structured as follows:
@@ -68,8 +76,7 @@ To get you started, we ran an Actions workflow in your new repository that, amon
        types: [opened]
    permissions:
      pull-requests: write
-
-  ```markdown
+   ```
 
 1. To commit your changes, click **Commit changes**.
 1. Type a commit message, select **Commit directly to the welcome-workflow branch** and click **Commit changes**.
@@ -81,6 +88,6 @@ To get you started, we ran an Actions workflow in your new repository that, amon
 
 Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 ```
