@@ -1,4 +1,4 @@
-## Step 2: Add a job to your workflow file
+# Step 2: Add a job to your workflow file
 
 _Nice work! :tada: You added a workflow file!_
 
@@ -15,7 +15,7 @@ Next, we need to specify jobs to run.
 
 In the following activity, you'll add a "build" job to your workflow. You'll specify `ubuntu-latest` as the fastest, and cheapest, job runner available. If you want to read more about why we'll use that runner, see the code explanation for the line `runs-on: ubuntu-latest` in the "[Understanding the workflow file](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#understanding-the-workflow-file)" article.
 
-### :keyboard: Activity: Add a job to your workflow file
+## :keyboard: Activity: Add a job to your workflow file
 
 1. In a separate browser tab, make sure you are on the `welcome-workflow` branch and open your `.github/workflows/welcome.yml` file.
 1. Edit the file and update its contents to:
