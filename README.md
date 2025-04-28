@@ -1,12 +1,10 @@
-<header>
-
 # Hello GitHub Actions
 
 _Create and run a GitHub Actions workflow._
 
 </header>
 
-# README for `README.md`
+## README for `README.md`
 
 This file serves as the main documentation for the "Hello GitHub Actions" course. It provides an introduction to GitHub Actions and guides users through creating and running their first GitHub Actions workflow.
 
@@ -70,13 +68,14 @@ To get you started, we ran an Actions workflow in your new repository that, amon
        types: [opened]
    permissions:
      pull-requests: write
-   ```
+
+  ```markdown
 
 1. To commit your changes, click **Commit changes**.
 1. Type a commit message, select **Commit directly to the welcome-workflow branch** and click **Commit changes**.
 1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). A separate Actions workflow in the repository (not the workflow you created) will run and will automatically replace the contents of this README file with instructions for the next step.
 
-<footer>
+```plaintext
 
 ---
 
@@ -84,4 +83,4 @@ Get help: [Post in our discussion board](https://github.com/orgs/skills/discussi
 
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
-</footer>
+```
