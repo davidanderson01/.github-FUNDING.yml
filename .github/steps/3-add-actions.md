@@ -5,6 +5,7 @@ _Nice work adding a job to your workflow! :dancer:_
 Workflows have jobs, and jobs have steps. Now, we'll add a step to your workflow.
 
 **What are _steps_?**: Steps are individual tasks that run in sequence within a job. Each step must pass for the next step to execute. Steps can either:
+
 - Run shell scripts.
 - Reference reusable actions.
 
@@ -50,5 +51,6 @@ In this activity, you'll add a step to post a comment on new pull requests using
 
 ---
 
-### Notes:
+### Notes
+
 - If you're working with Azure, you can use Azure-hosted runners. Learn more about [Azure-hosted runners](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted).
