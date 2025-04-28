@@ -1,10 +1,11 @@
 github: davidanderson01
-patreon: patreon.com/DavidAnderson01
-open_collective: https://opencollective.com/davidanderson01
-ko_fi: ko-fi.com/davidanderson75987
-tidelift: YOUR_TIDELIFT_PROJECT_ID
-community_bridge: YOUR_COMMUNITY_BRIDGE_PROJECT_ID
-liberapay: YOUR_LIBERAPAY_USERNAME
-issuehunt: YOUR_ISSUEHUNT_USERNAME
-otechie: YOUR_OTECHIE_USERNAME
-custom: ["https://your-custom-donation-link.com"]
+patreon: davidanderson01
+open_collective: davidanderson01
+ko_fi: davidanderson75987
+tidelift: your-tidelift-project-id
+community_bridge: your-community-bridge-project-id
+liberapay: your-liberapay-username
+issuehunt: your-issuehunt-username
+otechie: your-otechie-username
+custom: 
+  - https://your-custom-donation-link.com

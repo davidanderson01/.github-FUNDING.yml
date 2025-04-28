@@ -2,13 +2,12 @@
 
 _Create and run a GitHub Actions workflow._
 
-</header>
-
 ## README for `README.md`
 
 This file serves as the main documentation for the "Hello GitHub Actions" course. It provides an introduction to GitHub Actions and guides users through creating and running their first GitHub Actions workflow.
 
 ## Table of Contents
+
 1. [Introduction](#hello-github-actions)
 2. [File Structure](#file-structure)
 3. [Key Features](#key-features)
@@ -40,14 +39,14 @@ The file is structured as follows:
 
 This file is licensed under the MIT License. See the footer section for more details.
 
-## Step 1: Create a workflow file
+## Step 1: Create a Workflow File
 
 _Welcome to "Hello GitHub Actions"! :wave:_
 
-**What is _GitHub Actions_?**: GitHub Actions is a flexible way to automate nearly every aspect of your team's software workflow. You can automate testing, continuously deploy, review code, manage issues and pull requests, and much more. The best part, these workflows are stored as code in your repository and easily shared and reused across teams. To learn more, check out these resources:
+**What is _GitHub Actions_?**: GitHub Actions is a flexible way to automate nearly every aspect of your team's software workflow. You can automate testing, continuously deploy, review code, manage issues and pull requests, and much more. The best part is that these workflows are stored as code in your repository and can be easily shared and reused across teams. To learn more, check out these resources:
 
-- The GitHub Actions feature page, see [GitHub Actions](https://github.com/features/actions).
-- The "GitHub Actions" user documentation, see [GitHub Actions](https://docs.github.com/actions).
+- The GitHub Actions feature page: [GitHub Actions](https://github.com/features/actions)
+- The "GitHub Actions" user documentation: [GitHub Actions](https://docs.github.com/actions)
 
 **What is a _workflow_?**: A workflow is a configurable automated process that will run one or more jobs. Workflows are defined in special files in the `.github/workflows` directory and they execute based on your chosen event. For this exercise, we'll use a `pull_request` event.
 
@@ -56,12 +55,13 @@ _Welcome to "Hello GitHub Actions"! :wave:_
 
 To get you started, we ran an Actions workflow in your new repository that, among other things, created a branch for you to work in, called `welcome-workflow`.
 
-### :keyboard: Activity: Create a workflow file
+### :keyboard: Activity: Create a Workflow File
 
 1. Open a new browser tab, and navigate to this same repository. Then, work on the steps in your second tab while you read the instructions in this tab.
 1. Create a pull request. This will contain all of the changes you'll make throughout this part of the course.
 
-   Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:welcome-workflow`, click **Create pull request**, then click **Create pull request** again.
+   - Click the **Pull Requests** tab.
+   - Click **New pull request**, set `base: main` and `compare: welcome-workflow`, click **Create pull request**, then click **Create pull request** again.
 
 1. Navigate to the **Code** tab.
 1. From the **main** branch dropdown, click on the **welcome-workflow** branch.
@@ -69,7 +69,7 @@ To get you started, we ran an Actions workflow in your new repository that, amon
 1. In the **Name your file** field, enter `welcome.yml`.
 1. Add the following content to the `welcome.yml` file:
 
-   ```yaml copy
+   ```yaml
    name: Post welcome comment
    on:
      pull_request:
@@ -79,15 +79,14 @@ To get you started, we ran an Actions workflow in your new repository that, amon
    ```
 
 1. To commit your changes, click **Commit changes**.
-1. Type a commit message, select **Commit directly to the welcome-workflow branch** and click **Commit changes**.
+1. Type a commit message, select **Commit directly to the welcome-workflow branch**, and click **Commit changes**.
 1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). A separate Actions workflow in the repository (not the workflow you created) will run and will automatically replace the contents of this README file with instructions for the next step.
-
-```plaintext
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+### Get Help
+
+- [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions)
+- [Review the GitHub status page](https://www.githubstatus.com/)
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-```

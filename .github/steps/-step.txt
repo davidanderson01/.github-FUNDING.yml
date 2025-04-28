@@ -1,1 +1,4 @@
-1
+Step 1: Initialize the repository
+Step 2: Create a workflow file
+Step 3: Commit and push changes
+Step 4: Open a pull request

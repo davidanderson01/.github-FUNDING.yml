@@ -4,3 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
+      time: "03:00"
+      timezone: "UTC"
+    ignore:
+      - dependency-name: "actions/checkout"
+        versions: ["<3.0.0"]
