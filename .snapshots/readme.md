@@ -15,6 +15,7 @@ This directory contains snapshots of your code for AI interactions. Each snapsho
 ## Configuration
 
 You can customize snapshot behavior in the `config.json` file. Options include:
+
 - Enabling or disabling project structure capture.
 - Specifying which files or directories to include in snapshots.
 - Defining custom tags or metadata for snapshots.
@@ -24,6 +25,7 @@ You can customize snapshot behavior in the `config.json` file. Options include:
 ## Azure Best Practices
 
 If this project involves Azure, ensure that snapshots and configurations align with Azure best practices:
+
 - Use the `azure_development-get_best_practices` tool if available to validate your repository and workflows.
 - Avoid including sensitive information (e.g., credentials or secrets) in snapshots.
 
