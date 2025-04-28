@@ -31,6 +31,7 @@ The configuration file (`config.json`) includes the following settings:
 ## Azure Best Practices
 
 If this project involves Azure, follow these guidelines:
+
 - Use the `azure_development-get_best_practices` tool to validate configurations and workflows.
 - Avoid including sensitive information (e.g., secrets or credentials) in any project files.
 - Ensure that the retention policy aligns with Azure's recommendations for secure and efficient management. Refer to [Azure Best Practices](https://learn.microsoft.com/en-us/azure/architecture/best-practices/) for more details.
