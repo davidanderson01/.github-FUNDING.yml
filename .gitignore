@@ -25,6 +25,7 @@
 *.log
 *.sql
 *.sqlite
+debug.log
 
 # OS generated files #
 ######################
@@ -54,6 +55,9 @@ env/
 venv/
 *.env
 *.venv
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
 
 # IDEs and editors #
 ####################
@@ -61,3 +65,16 @@ venv/
 .idea/
 *.swp
 *.swo
+
+# Temporary files #
+###################
+*.tmp
+*.temp
+*.bak
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/

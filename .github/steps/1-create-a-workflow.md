@@ -29,14 +29,20 @@ To get you started, we ran an Actions workflow in your new repository that, amon
 1. Add the following content to the `welcome.yml` file:
 
    ```yaml
-   name: Post welcome comment
+   name: Post welcome comment # Name of the workflow
    on:
-     pull_request:
+     pull_request: # Trigger the workflow on pull request events
        types: [opened]
    permissions:
-     pull-requests: write
+     pull-requests: write # Grant write permissions to pull requests
    ```
 
+1. After editing the file, validate the workflow syntax using the GitHub Actions workflow editor or a linter.
 1. To commit your changes, click **Commit changes**.
 1. Type a commit message, select **Commit directly to the welcome-workflow branch**, and click **Commit changes**.
 1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). A separate Actions workflow in the repository (not the workflow you created) will run and will automatically replace the contents of this README file with instructions for the next step.
+
+---
+
+### Notes:
+- If you're working with Azure, you can use Azure-hosted runners. Learn more about [Azure-hosted runners](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted).

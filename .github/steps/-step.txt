@@ -1,4 +1,13 @@
+# Steps for Setting Up the Repository
+
 Step 1: Initialize the repository
+- Create a new Git repository or clone an existing one.
+
 Step 2: Create a workflow file
+- Add a GitHub Actions workflow file in the `.github/workflows/` directory.
+
 Step 3: Commit and push changes
+- Stage your changes, commit them, and push to the remote repository.
+
 Step 4: Open a pull request
+- Create a pull request to merge your changes into the main branch.

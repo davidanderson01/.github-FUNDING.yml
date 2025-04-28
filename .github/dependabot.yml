@@ -9,3 +9,11 @@ updates:
     ignore:
       - dependency-name: "actions/checkout"
         versions: ["<3.0.0"]
+      - dependency-name: "azure/login"
+        versions: ["<1.0.0"]
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "03:00"
+      timezone: "UTC"

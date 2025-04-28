@@ -5,7 +5,6 @@ _Nice work adding a job to your workflow! :dancer:_
 Workflows have jobs, and jobs have steps. Now, we'll add a step to your workflow.
 
 **What are _steps_?**: Steps are individual tasks that run in sequence within a job. Each step must pass for the next step to execute. Steps can either:
-
 - Run shell scripts.
 - Reference reusable actions.
 
@@ -18,22 +17,22 @@ In this activity, you'll add a step to post a comment on new pull requests using
 1. Update the contents of the file to:
 
    ```yaml
-   name: Post welcome comment
+   name: Post welcome comment # Name of the workflow
    on:
-     pull_request:
+     pull_request: # Trigger the workflow on pull request events
        types: [opened]
    permissions:
-     pull-requests: write
+     pull-requests: write # Grant write permissions to pull requests
    jobs:
      build:
-       name: Post welcome comment
-       runs-on: ubuntu-latest
+       name: Post welcome comment # Name of the job
+       runs-on: ubuntu-latest # Specify the runner environment
        steps:
-         - name: Post a welcome comment
-           run: gh pr comment $PR_URL --body "Welcome to the repository!"
+         - name: Post a welcome comment # Name of the step
+           run: gh pr comment $PR_URL --body "Welcome to the repository!" # Command to post a comment
            env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-             PR_URL: ${{ github.event.pull_request.html_url }}
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub token for authentication
+             PR_URL: ${{ github.event.pull_request.html_url }} # URL of the pull request
    ```
 
    **Explanation of the Step:**
@@ -44,6 +43,12 @@ In this activity, you'll add a step to post a comment on new pull requests using
 
    For more details, see "[Automatic token authentication](https://docs.github.com/en/actions/security-guides/automatic-token-authentication)."
 
+1. After editing the file, validate the workflow syntax using the GitHub Actions workflow editor or a linter.
 1. Save your changes and click **Commit changes**.
 1. Type a commit message and commit your changes directly to the `welcome-workflow` branch.
 1. Wait about 20 seconds, then refresh this page. A new workflow will run and replace the contents of this README file with instructions for the next step.
+
+---
+
+### Notes:
+- If you're working with Azure, you can use Azure-hosted runners. Learn more about [Azure-hosted runners](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted).

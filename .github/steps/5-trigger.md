@@ -12,7 +12,7 @@ The shell script in the workflow will run whenever a new pull request is opened.
 
 1. Create a new branch named `test-workflow`.
 1. Make a change, such as adding an emoji to your `README.md` file, and commit the change directly to your new branch.
-1. In the **Pull requests** tab, create a pull request to merge `test-workflow` into `main`.
+1. In the **Pull Requests** tab, create a pull request to merge `test-workflow` into `main`.
 1. Watch the workflow running in the **Checks** section of the pull request.
 1. Observe the comment that the workflow adds to the pull request.
 1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). Another workflow will run and replace the contents of this README file with instructions for the next step.
@@ -22,4 +22,5 @@ The shell script in the workflow will run whenever a new pull request is opened.
 ### Notes
 
 - Ensure that your workflow file is correctly configured before triggering the workflow.
+- If you're working with Azure, ensure that your workflow aligns with [Azure DevOps best practices](https://learn.microsoft.com/en-us/azure/devops/pipelines/best-practices).
 - If you encounter any issues, refer to the [GitHub Actions Documentation](https://docs.github.com/actions) for troubleshooting.

@@ -1,0 +1,8 @@
+{
+  "snapshots": [
+    {
+      "path": ".snapshots/config.json",
+      "description": "Configuration for snapshots"
+    }
+  ]
+}
