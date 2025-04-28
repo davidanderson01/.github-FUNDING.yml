@@ -14,6 +14,7 @@ Merge your changes so the action will be a part of the `main` branch.
 
 ---
 
-### Notes:
+### Notes
+
 - Ensure that all checks have passed before merging the pull request.
 - If you encounter any issues, refer to the [GitHub Actions Documentation](https://docs.github.com/actions) for troubleshooting.

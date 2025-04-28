@@ -1,8 +1,8 @@
-## Finish
+# Finish
 
 _Congratulations, friend! You've completed this course!_
 
-<img src="https://octodex.github.com/images/jetpacktocat.png" alt="Mona the Octocat wearing a jetpack and smiling." width="300" align="right">
+![Mona the Octocat wearing a jetpack and smiling](https://octodex.github.com/images/jetpacktocat.png)
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
@@ -11,7 +11,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
 - You defined an event trigger, a job, and a step for your workflow.
 - You're ready to automate anything you can dream of.
 
-### What's next?
+## What's next?
 
 - Learn more about GitHub Actions by reading "[Learn GitHub Actions](https://docs.github.com/actions/learn-github-actions)".
 - Use actions created by others in [awesome-actions](https://github.com/sdras/awesome-actions).
