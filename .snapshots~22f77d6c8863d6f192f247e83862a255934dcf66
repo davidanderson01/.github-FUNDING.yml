@@ -1,0 +1,36 @@
+{
+  "snapshots": [
+    {
+      "id": "snap-000",
+      "path": ".snapshots/config.json",
+      "description": "Configuration file for snapshot management",
+      "timestamp": "2023-10-01T12:00:00Z",
+      "version": "1.0.0"
+    },
+    {
+      "id": "snap-001",
+      "path": ".snapshots/config.json",
+      "description": "Configuration file for snapshot management",
+      "timestamp": "2023-10-01T12:00:00Z",
+      "version": "1.0.0",
+      "metadata": {
+        "creator": "system",
+        "size": 1024,
+        "status": "active" // Possible values: "active" (currently in use), "inactive" (not in use but retained), "archived" (preserved for historical purposes)
+        "status": "active" // Possible values: "active", "inactive", "archived"
+      },
+      "retention": {
+        "policy": "standard",
+        "duration": "30d"
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2023-10-01T12:00:00Z",
+  "config": {
+    "maxSnapshots": 100, // Maximum number of snapshots allowed before cleanup
+    "compressionEnabled": true, // Indicates whether snapshot compression is enabled
+    "compressionEnabled": true, // Indicates whether snapshot compression is enabled
+    "autoCleanup": true // Automatically removes old snapshots when the maximum limit is reached
+  }
+}
