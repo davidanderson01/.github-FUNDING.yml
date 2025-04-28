@@ -6,6 +6,34 @@ _Create and run a GitHub Actions workflow._
 
 </header>
 
+# README for `README.md`
+
+This file serves as the main documentation for the "Hello GitHub Actions" course. It provides an introduction to GitHub Actions and guides users through creating and running their first GitHub Actions workflow.
+
+## File Structure
+
+The file is structured as follows:
+
+1. **Header Section**: Contains the title and a brief description of the course.
+2. **Step-by-Step Instructions**: Guides users through creating a workflow file, setting up a pull request, and understanding GitHub Actions concepts.
+3. **Footer Section**: Includes helpful links for further learning, support, and licensing information.
+
+## Key Features
+
+- **Introduction to GitHub Actions**: Explains what GitHub Actions are and their benefits.
+- **Step-by-Step Activities**: Provides detailed instructions for creating and running workflows.
+- **Helpful Resources**: Links to GitHub Actions documentation and other learning materials.
+
+## How to Use
+
+1. Follow the instructions in the "Activity" sections to complete each step of the course.
+2. Use the provided links to explore additional resources and documentation.
+3. Refer to the footer for support and licensing information.
+
+## License
+
+This file is licensed under the MIT License. See the footer section for more details.
+
 ## Step 1: Create a workflow file
 
 _Welcome to "Hello GitHub Actions"! :wave:_
